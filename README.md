@@ -1,61 +1,46 @@
-# Your Name - Portfolio
+# CSS Portfolio Pro
 
-Welcome to my portfolio! This website showcases my skills and projects as a web developer.
+Welcome to **CSS Portfolio Pro**, a dynamic and visually stunning portfolio template designed to showcase your projects and skills with flair. This project is built using HTML, CSS, and JavaScript, emphasizing modern design principles and responsive layouts.
+
+## Live Demo
+
+Check out the live version of the portfolio [here](https://joshuamarknanninga.github.io/css-portfolio-pro/).
 
 ## Table of Contents
 
-- [About Me](#about)
-- [My Work](#work)
-- [Contact Me](#contact)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Customization](#customization)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-## About Me
+## Features
 
-Hello! I'm Your Name, a passionate web developer with experience in building responsive and dynamic web applications. I enjoy turning complex problems into simple, beautiful, and intuitive designs.
+- **Responsive Design:** Optimized for desktops, tablets, and mobile devices.
+- **Dynamic Animations:** Smooth transitions and engaging animations using CSS keyframes.
+- **Modern Aesthetics:** Beautiful color schemes, gradients, and shadows enhance visual appeal.
+- **Interactive Navigation:** Hamburger menu for seamless navigation on smaller screens.
+- **Project Showcase:** Organized project grid to highlight your work effectively.
+- **Contact Form:** Easy-to-use contact form for visitors to reach out to you.
+- **Social Links:** Integrated social media icons for broader connectivity.
 
-## My Work
+## Technologies Used
 
-### Featured Project
+- **HTML5**
+- **CSS3**
+- **JavaScript (ES6)**
+- **Flexbox & Grid Layouts**
+- **CSS Animations & Keyframes**
+- **Responsive Design Techniques**
 
-![Project One](assets/images/project1.jpg)
+## Installation
 
-**[Project One](https://your-deployed-app1.com)**
+To get a local copy up and running, follow these simple steps:
 
-Description of Project One.
+1. **Clone the Repository**
 
-### Other Projects
-
-![Project Two](assets/images/project2.jpg)
-
-**[Project Two](https://your-deployed-app2.com)**
-
-Description of Project Two.
-
-![Project Three](assets/images/project3.jpg)
-
-**[Project Three](https://your-deployed-app3.com)**
-
-Description of Project Three.
-
-![Project Four](assets/images/project4.jpg)
-
-**[Project Four](https://your-deployed-app4.com)**
-
-Description of Project Four.
-
-## Contact Me
-
-- **Email:** [youremail@example.com](mailto:youremail@example.com)
-- **LinkedIn:** [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
-- **GitHub:** [github.com/yourusername](https://github.com/yourusername)
-
-## Deployment
-
-This application is deployed at [https://your-deployed-portfolio.com](https://your-deployed-portfolio.com).
-
-## GitHub Repository
-
-You can find the source code for this project at [https://github.com/yourusername/portfolio](https://github.com/yourusername/portfolio).
-
-## License
-
-This project is licensed under the MIT License.
+   ```bash
+   git clone https://github.com/joshuamarknanninga/css-portfolio-pro.git
