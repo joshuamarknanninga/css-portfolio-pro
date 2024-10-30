@@ -5,74 +5,107 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Joshua Mark Nanninga - Portfolio</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="assets/icons/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <header>
         <nav>
             <div class="logo">
-                <img src="assets/images/avatar.jpg" alt="Your Avatar" class="avatar">
-                <h1>Joshua Mark Nanninga</h1>
+                <a href="#">Joshua</a>
             </div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
-                <li><a href="#work">Work</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </nav>
     </header>
 
-    <main>
-        <!-- About Section -->
-        <section id="about">
-            <h2>About Me</h2>
-            <p>
-                Hi there! I'm Joshua Mark Nanninga, and I'm thrilled to be reigniting my love for programming. After 12 fulfilling years as a teacher, I felt ready to embark on a new adventure in the world of web development. Confident in my ability to succeed, I enrolled in a coding bootcamp to sharpen my skills in both front-end and back-end development. I’m passionate about transforming complex problems into simple, beautiful, and intuitive designs, and I'm excited to blend my teaching experience with my technical expertise to create impactful and engaging web applications.
-            </p>
-        </section>
+    <section class="hero">
+        <video autoplay muted loop id="background-video">
+            <source src="assets/videos/background.mp4" type="video/mp4">
+        </video>
+        <div class="hero-content">
+            <h1>Hi, I'm Joshua Mark Nanninga</h1>
+            <p>Web Developer & Designer</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
 
-        <!-- Work Section -->
-        <section id="work">
-            <h2>My Work</h2>
-            <div class="projects">
-                <div class="PWA-text-editor-pro">
-                    <a href="PWA-text-editor-pro" target="_blank">
-                        <img src="assets/images/project1.jpg" alt="Project 1">
-                        <h3>PWA Text Editor</h3>
-                    </a>
-                </div>
-                <div class="restfull-api">
-                    <a href="https://your-deployed-app2.com" target="_blank">
-                        <img src="assets/images/project2.jpg" alt="Project 2">
-                        <h3>restfull-api</h3>
-                    </a>
-                </div>
-                <div class="diabetes-nutrition-app">
-                    <a href="https://joshuamarknanninga.github.io/diabetes-nutrition-app/" target="_blank">
-                        <img src="assets/images/project3.jpg" alt="Project 3">
-                        <h3>diabetes-nutrition-app</h3>
-                    </a>
-                </div>
-                <div class="project">
-                    <a href="https://joshuamarknanninga.github.io/Employee-Tracker/" target="_blank">
-                        <img src="assets/images/project4.jpg" alt="Project 4">
-                        <h3>Employee-Tracker</h3>
-                    </a>
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="images/profile.jpg" alt="Joshua's Profile Picture">
+                <div class="about-text">
+                    <p>
+                        I'm a passionate web developer with a knack for creating dynamic and responsive websites. I love integrating modern design principles with seamless functionality.
+                    </p>
+                    <a href="#projects" class="btn">Check My Projects</a>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Contact Section -->
-        <section id="contact">
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="images/project1.jpg" alt="Project 1">
+                    <div class="project-info">
+                        <h3>Project One</h3>
+                        <p>A brief description of Project One.</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="images/project2.jpg" alt="Project 2">
+                    <div class="project-info">
+                        <h3>Project Two</h3>
+                        <p>A brief description of Project Two.</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="images/project3.jpg" alt="Project 3">
+                    <div class="project-info">
+                        <h3>Project Three</h3>
+                        <p>A brief description of Project Three.</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
             <h2>Contact Me</h2>
-            <p>You can reach me at:</p>
-            <ul>
-                <li>Email: <a href="mailto:jmarknanninga@gmail.com">jmarknanninga@gmail.com</a></li>
-                <li>LinkedIn: <a href="www.linkedin.com/in/joshua-nanninga-88a7522a7" target="_blank">www.linkedin.com/in/joshua-nanninga-88a7522a7</a></li>
-                <li>GitHub: <a href="https://github.com/joshuamarknanninga" target="_blank">https://github.com/joshuamarknanninga</a></li>
-                <li>Resume: <a href="https://docs.google.com/document/d/1gqKL2mv0L_UqamCkymiHVd8Jh_wVVHpnAn9oc43sn2g/edit?usp=sharing" target="_blank">https://docs.google.com/document/d/1gqKL2mv0L_UqamCkymiHVd8Jh_wVVHpnAn9oc43sn2g/edit?usp=sharing</a></li>
-            </ul>
-        </section>
-    </main>
+            <form action="#" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+            <div class="social-links">
+                <a href="https://github.com/joshuamarknanninga" target="_blank">
+                    <img src="assets/icons/github.svg" alt="GitHub">
+                </a>
+                <a href="https://linkedin.com/in/joshuamarknanninga" target="_blank">
+                    <img src="assets/icons/linkedin.svg" alt="LinkedIn">
+                </a>
+                <a href="https://twitter.com/joshuamarknanninga" target="_blank">
+                    <img src="assets/icons/twitter.svg" alt="Twitter">
+                </a>
+            </div>
+        </div>
+    </section>
 
     <footer>
         <p>&copy; 2024 Joshua Mark Nanninga. All rights reserved.</p>
