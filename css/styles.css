@@ -193,10 +193,10 @@ nav {
 }
 
 .about-content img {
-    width: 300px;
-    border-radius: 50%;
+    width: 150px;
+    border-radius: 25%;
     box-shadow: 0 4px 15px var(--shadow-color);
-    animation: float 3s ease-in-out infinite;
+    animation: float 5s ease-in-out infinite;
 }
 
 .about-text {
